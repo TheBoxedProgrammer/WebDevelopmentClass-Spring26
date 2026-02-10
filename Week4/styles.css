@@ -1,0 +1,41 @@
+/* Styles */
+
+/* Universal Selectors */
+*{
+    font-family: "Arial"; /* Webpage Font Styling */
+    box-sizing: border-box; /* Webpage Border */
+}
+
+/* Type Selectors */
+
+body{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h1, h2, h3{
+    color: red;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Class Selectors */
+
+.note{
+    background-color: darkgray;
+    padding: 10px
+}
+
+.btn{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: red;
+}
